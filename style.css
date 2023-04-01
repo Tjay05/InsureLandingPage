@@ -1,0 +1,394 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   font-size: 16px;
+}
+/* Main Styles */
+
+/* Article Styles */
+.about{
+    background-image: url(images/bg-pattern-intro-left-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: left 0% top 0%;
+    padding-block: 5.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+}
+
+.about h1{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 3rem;
+    padding-inline: 1.3rem;
+}
+
+.about p{
+    padding-inline: 1.7rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+
+.about button{
+    color: white;
+    text-transform: uppercase;
+    margin-block-start: 1rem;
+    border: 2px solid white;
+    padding: 0.7rem 1.7rem;
+    background-color: hsl(256, 26%, 20%);
+}
+
+.about button:hover{
+    color: black;
+    background-color: white;
+}
+
+.graphic-right {
+    background-image: url(images/bg-pattern-intro-right-mobile.svg);
+    background-repeat: no-repeat;
+    display: block;
+    top: 860px;
+    right: 0%;
+    position: absolute;
+    width: 124px;
+    height: 330px;
+}
+
+/* Aside Styles */
+
+aside{
+    padding-block-start: 10rem;
+    padding-block-end: 8rem;
+}
+
+aside h1{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+aside .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 1.7rem;
+}
+
+aside .info .wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside .info .wrap img{
+    margin-top: 2rem;
+}
+
+aside .info .wrap h2{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    padding-block-start: 2.5rem;
+}
+
+aside .info .wrap p{
+    padding-block-start: 1rem;
+    text-align: center;
+    color: hsla(0, 2%, 47%, 0.479);
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+
+aside .work{
+    background-image: url(images/bg-pattern-how-we-work-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top 0 right 0;
+    margin-inline: 1.3rem;
+    margin-block-start: 8rem;
+    padding-block: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+    margin-block-end: 1rem;
+}
+
+aside .work h2{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    line-height: 2.6rem;
+}
+
+aside .work button{
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+    border: 2px solid white;
+    text-transform: uppercase;
+    padding: 0.7rem 1.7rem;
+}
+
+aside .work button:hover{
+    color: black;
+    background-color: white;
+}
+
+/* Footer Styles */
+
+footer{
+    background-color: hsl(0, 0%, 98%);
+    background-image: url(images/bg-pattern-footer-mobile.svg);
+    background-repeat: no-repeat;
+    padding-block-end: 4rem;
+}
+
+.clogo{
+    padding-block-start: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.clogo ul.socials{
+    border-bottom: 1px solid hsla(0, 2%, 47%, 0.479);
+    padding: 0%;
+    padding: 0rem 5rem 2rem 5rem;
+    list-style: none;
+    margin-block: 1.9rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clogo ul.socials li img{
+    padding-inline: 0.5rem;
+}
+
+.faq{
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.faq .contacts h4{
+    padding-block-end: 1rem;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 700;
+    color: hsla(0, 4%, 26%, 0.233);
+}
+
+.faq .contacts ul{
+    padding: 0%;
+    list-style: none;
+}
+
+.faq .contacts ul li{
+    padding-block: 0.2rem;
+}
+
+/* Edited Bootsrap Styles */
+
+.feel ul{
+    display: none;
+}
+
+.collapse{
+    background-color: hsl(256, 26%, 20%);
+    background-image: url(./images/bg-pattern-mobile-nav.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right 0% bottom 0%;
+    padding-bottom: 20rem;
+}
+
+.bg-dark{
+    --bs-bg-opacity:0;
+}
+
+.text-white{
+    padding-block: 1rem;
+    cursor: pointer;
+    text-align: center;
+    list-style: none;
+    font-family: 'Karla', sans-serif;
+    text-transform: uppercase;
+}
+
+.text-white li{
+    padding-block: 0.8rem;
+}
+
+.text-white li.plan{
+    border: 2px solid white;
+}
+
+/* Desktop Styles */
+
+@media screen and (min-width: 624px) {
+    /* Navabar Styles */
+    .navbar-toggler{
+        display: none;
+    }
+    .feel ul{
+        font-family: 'Karla', sans-serif;
+        text-transform: uppercase;
+        margin: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+    .feel ul li{
+        color: hsla(0, 4%, 26%, 0.233);
+        padding-inline: 0.7rem;
+        cursor: pointer;
+    }
+    .feel ul li:hover{
+        color: black;
+    }
+    .feel ul li.plan{
+        padding: 0.3rem 1.5rem;
+        border: 2px solid hsl(256, 26%, 20%);
+    }
+    .feel ul li.plan:hover{
+        color: white;
+        background-color: hsl(256, 26%, 20%);
+    }
+
+    /* Main Styles */
+
+    /* Article Styles */
+    article .lee{
+        display: flex;
+        justify-content: space-around;
+        background-color: hsl(256, 26%, 20%);
+        padding: 8rem;
+    }
+    article .lee .about{
+        display: inline-block;
+        text-align: left;
+        order: -1;
+        background-size: 0%;
+    }
+    article .lee .about h1{
+        text-align: left;
+    }
+    article .lee .about h1 span{
+        text-align: left;
+    }
+    article .lee .about h1 span.it{
+        padding-block-start: 5rem;
+        border-top: 1px solid hsla(0, 0%, 98%);
+    }
+    article .lee .about button{
+        margin-block-start: 2rem;
+        margin-inline-start: 1.6rem;
+    }
+    /* Aside Styles */
+
+    aside{
+        margin-inline: 5rem;
+    }
+
+    aside h1{
+        text-align: left;
+        padding-inline-start: 4rem;
+    }
+
+    aside h1 span{
+        border-top: 1px solid hsla(0, 2%, 47%, 0.479);
+        padding-top: 3rem;
+    }
+
+    aside .info{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    aside .info .wrap{
+        display: block;
+        align-self: center;
+        padding-inline: 1.9rem;
+    }
+
+    aside .info .wrap p{
+        text-align: left;
+    }
+
+    aside .work{
+        padding-inline: 5rem;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url(images/bg-pattern-how-we-work-desktop.svg);
+    }
+
+    aside .work h2{
+        line-height: 3rem;
+        text-align: left;
+    }
+    .graphic-left{
+        background-image: url(images/bg-pattern-intro-left-desktop.svg);
+        background-repeat: no-repeat;
+        top: 800px;
+        right: 74%;
+        position: absolute;
+        width: 380px;
+        height: 900px;
+    }
+    .graphic-right{
+        background-image: url(images/bg-pattern-intro-right-desktop.svg);
+        background-repeat: no-repeat;
+        top: 70px;
+        right: 0px;
+        position: absolute;
+        width: 380px;
+        height: 900px;
+    }
+    /* Footer Styles */
+    footer{
+        padding-inline: 6.6rem;
+        background-image: url(images/bg-pattern-footer-desktop.svg);
+        background-repeat: no-repeat;
+    }
+    .clogo{
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid hsla(0, 2%, 47%, 0.479);
+        padding-block-start: 1rem;
+        
+    }
+    .clogo ul.socials{
+        border-bottom: none;
+        padding: 0% 0% 1rem 0%;
+    }
+    .faq{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .faq .contacts h4{
+        padding-top: 3rem;
+    }
+    .faq .contacts ul, .faq .contacts h4{
+        text-align: left;
+    }
+}
