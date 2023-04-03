@@ -45,8 +45,8 @@ Users should be able to:
 ### What I learned
 
 ## Author
-- Frontend Mentor - [@Tjay05](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@tjay_yy](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Tjay05](https://www.frontendmentor.io/profile/@Tjay05)
+- Twitter - [@tjay_yy](https://www.twitter.com/@tjay_yy)
 
 ## Acknowledgments
 
