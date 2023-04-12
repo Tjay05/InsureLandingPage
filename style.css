@@ -206,11 +206,6 @@ footer{
 }
 
 /* Edited Bootsrap Styles */
-.container-fluid{
-    margin-inline-start: 9rem;
-    margin-inline-end: 7rem;
-}
-
 .feel ul{
     display: none;
 }
@@ -277,6 +272,10 @@ footer{
         color: white;
         background-color: hsl(256, 26%, 20%);
     }
+    .container-fluid{
+        margin-inline-start: 7rem;
+        margin-inline-end: 7rem;
+    }
 
     /* Main Styles */
 
@@ -294,6 +293,7 @@ footer{
         background-size: 0%;
     }
     article .lee .about h1{
+        padding-inline: 0rem;
         text-align: left;
     }
     article .lee .about h1 span{
@@ -303,9 +303,12 @@ footer{
         padding-block-start: 5rem;
         border-top: 1px solid hsla(0, 0%, 98%);
     }
+    article .lee .about p{
+        padding-inline: 0rem;
+    }
     article .lee .about button{
         margin-block-start: 2rem;
-        margin-inline-start: 1.6rem;
+        margin-inline-start: 0rem;
     }
     /* Aside Styles */
 
@@ -315,7 +318,7 @@ footer{
 
     aside h1{
         text-align: left;
-        padding-inline-start: 4rem;
+        padding-inline-start: 2rem;
     }
 
     aside h1 span{
@@ -325,7 +328,8 @@ footer{
 
     aside .info{
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
+        padding-inline: 0rem;
     }
 
     aside .info .wrap{
