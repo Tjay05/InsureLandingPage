@@ -206,6 +206,10 @@ footer{
 }
 
 /* Edited Bootsrap Styles */
+.container-fluid{
+    margin-inline-start: 9rem;
+    margin-inline-end: 7rem;
+}
 
 .feel ul{
     display: none;
