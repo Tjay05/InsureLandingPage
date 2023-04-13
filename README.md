@@ -25,7 +25,7 @@ Users should be able to:
 
 ![](./images/Desktop%20View.png)
 
-![](./images/Desktop%20View.png)
+![](./images/Mobile%20View.png)
 
 ### Links
 
