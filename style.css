@@ -363,11 +363,11 @@ footer{
     aside .info .wrap{
         display: block;
         align-self: center;
-        padding-inline: 1.9rem;
     }
 
     aside .info .wrap p{
         text-align: left;
+        margin-right: 1rem;
     }
 
     aside .work{
