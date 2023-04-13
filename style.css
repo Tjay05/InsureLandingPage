@@ -173,7 +173,7 @@ footer{
     justify-content: space-between;
 }
 
-.clogo ul.socials li img{
+.clogo ul.socials li a img{
     padding-inline: 0.5rem;
 }
 
