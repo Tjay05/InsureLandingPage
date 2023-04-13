@@ -255,8 +255,19 @@ footer{
 }
 
 /* Desktop Styles */
+@media screen and (max-width:375px) {
+    article .lee img{
+        width: 100%;
+    }
+}
 
-@media screen and (min-width: 624px) {
+@media screen and (min-width:376px) {
+    article .lee img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 802px) {
     /* Navabar Styles */
     .navbar-toggler{
         display: none;
