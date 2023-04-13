@@ -8,15 +8,9 @@ This is a solution to the [Insure landing page challenge on Frontend Mentor](htt
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -29,20 +23,20 @@ Users should be able to:
 
 ### Screenshot
 
+![](./images/Desktop%20View.png)
+
+![](./images/Desktop%20View.png)
+
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://Insure-Landing-Page.tjay05.repl.co](https://your-live-site-url.com)
-
-## My process
+- Solution URL: [https://your-solution-url.com](https://your-solution-url.com)
+- Live Site URL: [https://Insure-Landing-Page.tjay05.repl.com](https://Insure-Landing-Page.tjay05.repl.com)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-
-### What I learned
 
 ## Author
 - Frontend Mentor - [@Tjay05](https://www.frontendmentor.io/profile/@Tjay05)
