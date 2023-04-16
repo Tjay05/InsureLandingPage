@@ -267,7 +267,7 @@ footer{
     }
 }
 
-@media screen and (min-width: 802px) {
+@media screen and (min-width: 839px) {
     /* Navabar Styles */
     .navbar-toggler{
         display: none;
