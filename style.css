@@ -173,8 +173,14 @@ footer{
     justify-content: space-between;
 }
 
-.clogo ul.socials li a img{
+.clogo ul.socials li a i{
     padding-inline: 0.5rem;
+    font-size: x-large;
+    color: hsla(0, 2%, 47%, 0.479);
+}
+
+.clogo ul.socials li a i:hover{
+    color: #000000;
 }
 
 .faq{
