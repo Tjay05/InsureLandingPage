@@ -322,7 +322,7 @@ footer{
         padding: 8rem;
     }
     article .lee img{
-        margin-block-end: -14rem;
+        margin-block-end: -15rem;
     }
     article .lee .about{
         display: inline-block;
@@ -352,6 +352,7 @@ footer{
 
     aside{
         margin-inline: 5rem;
+        padding-block-start: 22rem;
     }
 
     aside h1{
@@ -395,7 +396,7 @@ footer{
     .graphic-left{
         background-image: url(images/bg-pattern-intro-left-desktop.svg);
         background-repeat: no-repeat;
-        top: 800px;
+        top: 600px;
         right: 74%;
         position: absolute;
         width: 380px;
