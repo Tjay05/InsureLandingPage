@@ -318,7 +318,11 @@ footer{
         display: flex;
         justify-content: space-around;
         background-color: hsl(256, 26%, 20%);
+        gap: 2rem;
         padding: 8rem;
+    }
+    article .lee img{
+        margin-block-end: -14rem;
     }
     article .lee .about{
         display: inline-block;
