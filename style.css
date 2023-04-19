@@ -432,6 +432,9 @@ footer{
         flex-direction: row;
         justify-content: space-between;
     }
+    .faq .contacts{
+        flex: 1 1 auto;
+    }
     .faq .contacts h4{
         padding-top: 3rem;
     }
