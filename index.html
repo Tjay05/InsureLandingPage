@@ -33,31 +33,17 @@
 </head>
 <body>
   <header>
-    <div class="collapse" id="navbarToggleExternalContent">
-      <div class="bg-dark p-4">
-        <ul class="text-white">
-          <li>How We work</li>
-          <li>Blog</li>
-          <li>Account</li>
-          <li class="plan">View plans</li>
-        </ul>
-      </div>
-    </div>
-    <nav class="navbar navbar-dark bg-dark">
-      <div class="container-fluid">
-        <img src="./images/logo.svg" alt="">
-        <div class="feel">
-          <ul>
-            <li><a href="#">How We work</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Account</a></li>
-            <li><a href="#" class="plan">View plans</a></li>
-          </ul>
-        </div>
-        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-          <img src="./images/icon-hamburger.svg" alt="">
-        </button>
-      </div>
+    <nav class="navbar container">
+      <img src="./images/logo.svg" alt="Logo">
+      <button class="hamburger">
+        <img id="hamburger" src="./images/icon-hamburger.svg" alt="">
+      </button>
+      <ul id="menu" class="nav-links">
+        <li><a href="#">How We work</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Account</a></li>
+        <li><a href="#" class="plan">View plans</a></li>
+      </ul>
     </nav>
   </header>
   <main>
@@ -158,5 +144,7 @@
       Coded by <a href="#">Olatayo Tijesu</a>.
     </div>
   </footer>
+
+  <script defer src="index.js"></script>
 </body>
 </html>
