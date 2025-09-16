@@ -1,13 +1,104 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+/* Variables */
+:root {
+	/* Colors */
+	/* Primary */
+	--dark-violet: hsl(256, 26%, 20%);
+	--grayish-blue: hsl(216, 30%, 68%);
+
+	/* Neutral */
+	--very-dark-violet: hsl(270, 9%, 17%);
+	--dark-grayish-violet: hsl(273, 4%, 51%);
+	--very-light-gray: hsl(0, 0%, 98%);
 }
 
-body {
-  font-size: 16px;
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
+
+body, button, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Base Styles */
+body {
+	font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+	padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
+/* Utility Styles */
+.container {
+	width: min(90%, 1200px);
+	margin-inline: auto;
+}
+
 /* Main Styles */
+/* Header Styles */
+header {
+	background-color: white;
+	position: relative;
+  font-family: "Karla", sans-serif;
+}
+
+nav.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-block: 1rem;
+}
+
+nav.navbar button.hamburger {
+	border: none;
+	background-color: transparent;
+}
+
+nav.navbar ul.nav-links#menu {
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	background-color: var(--very-dark-violet);
+	position: absolute;
+	top: 67px;
+	left: 0;
+	width: 100%;
+	padding-block: 2rem;
+	height: 100vh;
+	color: white;
+  text-transform: uppercase;
+}
+
+nav.navbar ul.nav-links#menu li {
+	margin-block: .2rem;
+  padding-block: .8rem;
+  font-weight: 700;
+}
+
+nav.navbar ul.nav-links#menu li:last-child {
+	border: 1px solid #fff;
+	width: 90%;
+	text-align: center;
+}
 
 /* Article Styles */
 .about {
@@ -228,36 +319,6 @@ footer {
 /* Edited Bootsrap Styles */
 .feel ul {
   display: none;
-}
-
-.collapse {
-  background-color: hsl(256, 26%, 20%);
-  background-image: url(./images/bg-pattern-mobile-nav.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right 0% bottom 0%;
-  padding-bottom: 20rem;
-}
-
-.bg-dark {
-  --bs-bg-opacity: 0;
-}
-
-.text-white {
-  padding-block: 1rem;
-  cursor: pointer;
-  text-align: center;
-  list-style: none;
-  font-family: "Karla", sans-serif;
-  text-transform: uppercase;
-}
-
-.text-white li {
-  padding-block: 0.8rem;
-}
-
-.text-white li.plan {
-  border: 2px solid white;
 }
 
 /* Desktop Styles */
