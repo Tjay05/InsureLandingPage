@@ -15,11 +15,13 @@ function mobileView () {
   });
 }
 
+const mediaQuery = window.matchMedia('(min-width: 768px)');
+
 function desktopView() {
-	if (menu.style.display === 'flex') {
-		menu.style.display = 'none';
+  if (mediaQuery >= '768px') {
+    menu.style.position = 'unset';
 	} else {
-    menu.style.display ='none';
+    alert('naaaaa');
   }
 }
 
@@ -31,7 +33,6 @@ function toggleView (e) {
   }
 }
 
-const mediaQuery = window.matchMedia('(min-width: 768px)');
-
 toggleView(mediaQuery);
+
 mediaQuery.addEventListener('change', toggleView);
