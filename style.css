@@ -166,12 +166,7 @@ section.main-section .intro .container button.plan-btn {
   margin-block-start: 1.5rem;
 }
 
-.about button:hover {
-  color: black;
-  background-color: white;
-}
-
-.graphic-right {
+/* .graphic-right {
   background-image: url(images/bg-pattern-intro-right-mobile.svg);
   background-repeat: no-repeat;
   display: block;
@@ -180,56 +175,58 @@ section.main-section .intro .container button.plan-btn {
   position: absolute;
   width: 124px;
   height: 330px;
+} */
+
+/* Different-Section styles */
+section.diff-section {
+  margin-block: 6rem;
+  text-align: center;
 }
 
-/* Aside Styles */
-
-aside {
-  padding-block-start: 10rem;
-  padding-block-end: 8rem;
-}
-
-aside h1 {
+section.diff-section h2.h2 {
   font-family: "DM Serif Display", serif;
   font-weight: 400;
   font-size: 3rem;
   text-align: center;
-  padding-bottom: 5rem;
+  padding-block: 2rem;
+  color: var(--dark-violet);
 }
 
-aside .info {
+section.diff-section .about-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-inline: 1.7rem;
 }
 
-aside .info .wrap {
+section.diff-section .about-container .item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-block: 2rem;
 }
 
-aside .info .wrap img {
-  margin-top: 2rem;
+section.diff-section .about-container .item img {
+  width: 25%;
 }
 
-aside .info .wrap h2 {
+section.diff-section .about-container .item h3 {
   font-family: "DM Serif Display", serif;
   font-weight: 400;
-  padding-block-start: 2.5rem;
+  color: var(--dark-violet);
+  margin-block: 2rem 1rem;
+  font-size: 1.5rem;
 }
 
-aside .info .wrap p {
-  padding-block-start: 1rem;
+section.diff-section .about-container .item p {
   text-align: center;
-  color: hsla(0, 2%, 47%, 0.479);
+  color: var(--dark-grayish-violet);
   font-family: "Karla", sans-serif;
   font-weight: 400;
+  line-height: 24px;
 }
 
-aside .work {
+section.diff-section .work {
   background-image: url(images/bg-pattern-how-we-work-mobile.svg);
   background-repeat: no-repeat;
   background-position: top 0 right 0;
@@ -244,14 +241,14 @@ aside .work {
   margin-block-end: 1rem;
 }
 
-aside .work h2 {
+/* section.diff-section .work h2 {
   font-family: "DM Serif Display", serif;
   font-weight: 400;
   font-size: 2.5rem;
   text-align: center;
   padding-bottom: 2rem;
   line-height: 2.6rem;
-}
+} */
 
 aside .work button {
   background-color: hsl(256, 26%, 20%);
@@ -352,6 +349,12 @@ footer {
 
 /* Desktop Styles */
 @media (min-width: 768px) {
+  /* Utility Styles */
+  .t-bd {
+    padding-block-start: 2rem;
+    border-top: 1px solid hsla(0, 0%, 98%);
+  }
+
   /* Navabar Styles */
   nav.navbar button.hamburger {
     display: none;
