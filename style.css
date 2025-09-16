@@ -226,45 +226,33 @@ section.diff-section .about-container .item p {
   line-height: 24px;
 }
 
-section.diff-section .work {
+section.cta {
   background-image: url(images/bg-pattern-how-we-work-mobile.svg);
   background-repeat: no-repeat;
   background-position: top 0 right 0;
   margin-inline: 1.3rem;
-  margin-block-start: 8rem;
-  padding-block: 3.5rem;
+  margin-block: 8rem;
+  padding-block: 4.5rem;
+  background-color: var(--dark-violet);
+  color: white;
+}
+
+section.cta .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: hsl(256, 26%, 20%);
-  color: white;
-  margin-block-end: 1rem;
 }
 
-/* section.diff-section .work h2 {
+section.cta .container h2 {
   font-family: "DM Serif Display", serif;
   font-weight: 400;
   font-size: 2.5rem;
   text-align: center;
   padding-bottom: 2rem;
   line-height: 2.6rem;
-} */
-
-aside .work button {
-  background-color: hsl(256, 26%, 20%);
-  color: white;
-  border: 2px solid white;
-  text-transform: uppercase;
-  padding: 0.7rem 1.7rem;
-}
-
-aside .work button:hover {
-  color: black;
-  background-color: white;
 }
 
 /* Footer Styles */
-
 footer {
   background-color: hsl(0, 0%, 98%);
   background-image: url(images/bg-pattern-footer-mobile.svg);
